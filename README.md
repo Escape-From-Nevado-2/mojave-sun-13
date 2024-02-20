@@ -7,13 +7,10 @@
 [![resentment](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://www.monkeyuser.com/assets/images/2019/131-bug-free.png) [![resentment](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://user-images.githubusercontent.com/8171642/50290880-ffef5500-043a-11e9-8270-a2e5b697c86c.png) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
 * **Website:** soon
-* **Code:** https://github.com/Mojave-Sun/mojave-sun-13
-* **Wiki:** soon
-* **Codedocs:** https://mojave-sun.github.io/mojave-sun-13/
-* **Mojave Sun Discord:** https://discord.gg/ms13
-* **Coderbus Discord:** https://discord.gg/Vh8TJp9
+* **Code:** https://github.com/Escape-From-Nevado-2/mojave-sun-13
+* **Far West Wasteland - 中国假货 Discord:** https://discord.com/invite/x66MhM738t
 
-Mojave Sun is a post-apocalyptic SS13 server based on modern /tg/station.
+Far West Wasteland - 中国假货 is a post-apocalyptic SS13 server based on modern /tg/station.
 
 ## DOWNLOADING
 [Downloading](.github/guides/DOWNLOADING.md)
