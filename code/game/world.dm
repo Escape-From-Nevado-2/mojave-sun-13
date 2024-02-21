@@ -315,7 +315,7 @@ GLOBAL_VAR(restart_counter)
 		s += " &#8212; <b>[station_name()]</b>"
 
 	s += " ("
-	s += "<a href=\"https://discord.com/invite/x66MhM738t\">" //Change this to wherever you want the hub to link to.
+	s += "<a href=\"https://discord.gg/bx9c7ha5Qk\">" //Change this to wherever you want the hub to link to.
 	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 	s += ")"
