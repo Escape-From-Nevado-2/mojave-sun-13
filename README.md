@@ -8,7 +8,7 @@
 
 * **Website:** soon
 * **Code:** https://github.com/Escape-From-Nevado-2/mojave-sun-13
-* **Far West Wasteland - 中国假货 Discord:** https://discord.com/invite/x66MhM738t
+* **Far West Wasteland - 中国假货 Discord:** https://discord.gg/bx9c7ha5Qk
 
 Far West Wasteland - 中国假货 is a post-apocalyptic SS13 server based on modern /tg/station.
 
