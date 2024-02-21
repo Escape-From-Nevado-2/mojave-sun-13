@@ -58,7 +58,7 @@ GLOBAL_VAR(restart_counter)
 	SSdbcore.SetRoundID()
 	SetupLogs()
 	load_poll_data()
-
+	send2chat("<@&1209810481469067301> New round starting!", "new-round-ping")
 #ifndef USE_CUSTOM_ERROR_HANDLER
 	world.log = file("[GLOB.log_directory]/dd.log")
 #else
@@ -266,6 +266,7 @@ GLOBAL_VAR(restart_counter)
 	#endif
 
 	if(TgsAvailable())
+	send2chat("Round ending! This story ends in the wasteland...", "new-round-ping")
 		var/do_hard_reboot
 		// check the hard reboot counter
 		var/ruhr = CONFIG_GET(number/rounds_until_hard_restart)
