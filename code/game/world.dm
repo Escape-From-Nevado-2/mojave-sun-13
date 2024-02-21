@@ -58,7 +58,7 @@ GLOBAL_VAR(restart_counter)
 	SSdbcore.SetRoundID()
 	SetupLogs()
 	load_poll_data()
-	send2chat("<@&1209810478612873260> New round starting!", "new-round-ping")
+	send2chat("<@&1209810478612873260> New round starting! Join at <byond://moviesfreepremium.xyz:1545>", "new-round-ping")
 #ifndef USE_CUSTOM_ERROR_HANDLER
 	world.log = file("[GLOB.log_directory]/dd.log")
 #else
