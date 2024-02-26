@@ -6,7 +6,7 @@
 	ms13_flags_1 = LOCKABLE_1
 	maxspace = 200
 	projectile_passchance = 80
-	hitted_sound = 'mojave/sound/ms13effects/impact/metal/metal_generic_1.wav'
+	hitted_sound = 'mojave/sound/ms13effects/impact/metal/metal_generic_1.ogg'
 
 /obj/structure/safe/ms13/Initialize(mapload)
 	. = ..()

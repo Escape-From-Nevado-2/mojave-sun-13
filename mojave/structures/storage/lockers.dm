@@ -5,7 +5,7 @@
 	can_weld_shut = FALSE
 	material_drop = /obj/item/stack/sheet/ms13/scrap
 	door_anim_time = 0
-	hitted_sound = 'mojave/sound/ms13effects/impact/metal/metal_sheet_4.wav'
+	hitted_sound = 'mojave/sound/ms13effects/impact/metal/metal_sheet_4.ogg'
 
 /obj/structure/closet/ms13/Initialize(mapload)
 	. = ..()

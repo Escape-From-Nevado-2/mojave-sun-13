@@ -105,11 +105,11 @@ GLOBAL_LIST_INIT(sentrybot_dying_sound, list(
 	var/datum/looping_sound/treads/soundloop
 
 /datum/looping_sound/treads
-	start_sound = 'mojave/sound/ms13npc/sentrybot/treads_start.mp3'
+	start_sound = 'mojave/sound/ms13npc/sentrybot/treads_start.ogg'
 	start_length = 1
-	mid_sounds = list('mojave/sound/ms13npc/sentrybot/treads_mid_1.mp3' = 1, 'mojave/sound/ms13npc/sentrybot/treads_mid_2.mp3' = 1, 'mojave/sound/ms13npc/sentrybot/treads_mid_3.mp3' = 1, 'mojave/sound/ms13npc/sentrybot/treads_mid_4.mp3' = 1)
+	mid_sounds = list('mojave/sound/ms13npc/sentrybot/treads_mid_1.ogg' = 1, 'mojave/sound/ms13npc/sentrybot/treads_mid_2.ogg' = 1, 'mojave/sound/ms13npc/sentrybot/treads_mid_3.ogg' = 1, 'mojave/sound/ms13npc/sentrybot/treads_mid_4.ogg' = 1)
 	mid_length = 1
-	end_sound = 'mojave/sound/ms13npc/sentrybot/treads_end.mp3'
+	end_sound = 'mojave/sound/ms13npc/sentrybot/treads_end.ogg'
 	vary = FALSE
 	volume = 25
 
