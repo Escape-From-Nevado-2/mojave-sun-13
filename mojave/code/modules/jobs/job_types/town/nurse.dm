@@ -26,3 +26,4 @@
 
 /datum/outfit/job/ms13/town/nurse/pre_equip(mob/living/carbon/human/H)
 	..()
+

@@ -18,6 +18,8 @@
 #define DEPARTMENT_DRYLANDER "Drylanders"
 #define DEPARTMENT_BITFLAG_GOLDMAN (1<<19)
 #define DEPARTMENT_GOLDMAN "Goldman"
+#define DEPARTMENT_BITFLAG_VAULT (1<<20)
+#define DEPARTMENT_VAULT "Vault"
 
 // Fancy name for fancy boys
 /datum/job_department/var/department_full_name = null
@@ -117,6 +119,13 @@
 	department_experience_type = EXP_TYPE_GOLDMAN
 	department_full_name = "The Goldman Posse"
 
+/datum/job_department/vault
+	department_name = DEPARTMENT_VAULT
+	department_bitflags = DEPARTMENT_BITFLAG_VAULT
+	department_head = /datum/job/ms13/vault/overseer
+	department_experience_type = EXP_TYPE_VAULT
+	department_full_name = "Vault Dwellers"
+
 // FLAG DEFINES
 
 /datum/asset/simple/ms13/faction_flags
@@ -130,5 +139,6 @@
 		"Wasteland_flag.png" = 'mojave/icons/faction_flags/flag_wastelanders.png',
 		"Barony_flag.png" = 'mojave/icons/faction_flags/flag_wastelanders.png', //placeholder
 		"Drylanders_flag.png" = 'mojave/icons/faction_flags/flag_wastelanders.png',
-		"Goldman_flag.png" = 'mojave/icons/faction_flags/flag_goldman.png'
+		"Goldman_flag.png" = 'mojave/icons/faction_flags/flag_goldman.png',
+		"Vault_flag.png" = 'mojave/icons/faction_flags/flag_vault.png'
 	)

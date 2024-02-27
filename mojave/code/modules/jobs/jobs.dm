@@ -96,6 +96,13 @@ GLOBAL_LIST_INIT(combattest_positions, list(
 	"Blue ganger",
 	"Red ganger",))
 
+GLOBAL_LIST_INIT(vault_positions, list(
+	"Vault Dweller",
+	"Vault Security",
+	"Vault Doctor",
+	"Vault Overseer",
+	"Vault Cook",))
+
 // job categories for rendering the late join menu
 GLOBAL_LIST_INIT(ms13_position_categories, list(
 	EXP_TYPE_WASTELAND = list("jobs" = wasteland_positions, "color" = "#eec66f"),
@@ -108,6 +115,7 @@ GLOBAL_LIST_INIT(ms13_position_categories, list(
 	EXP_TYPE_DRYLANDERS = list("jobs" = drylander_positions, "color" = "#4e2e04"),
 	EXP_TYPE_COMBATTEST = list("jobs" = combattest_positions, "color" = "#4e2e04"),
 	EXP_TYPE_GOLDMAN = list("jobs" = goldman_positions, "color" = "#4e2e04")
+	EXP_TYPE_VAULT = list("jobs" = vault_positions, "color" = "#333891")
 ))
 
 GLOBAL_LIST_INIT(ms13_exp_jobsmap, list(
@@ -121,6 +129,7 @@ GLOBAL_LIST_INIT(ms13_exp_jobsmap, list(
 	EXP_TYPE_DRYLANDERS = list("titles" = drylander_positions),
 	EXP_TYPE_COMBATTEST = list("titles" = combattest_positions),
 	EXP_TYPE_GOLDMAN = list("titles" = goldman_positions)
+	EXP_TYPE_VAULT = list("titles" = vault_positions)
 ))
 
 GLOBAL_PROTECT(ms13_exp_jobsmap)
